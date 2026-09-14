@@ -1,0 +1,7 @@
+# experiment data and generated tables
+results/
+# paper-specific table generator
+reporting/make_paper_tables.py
+# python
+__pycache__/
+*.pyc
