@@ -188,7 +188,7 @@ Baselines have no notion of a workflow; in W the simulator runs them per task.
 
 ## Further reading
 
-- `MERAF/docs/README.md`: index of the engineering references (cost model
+- `MERAF/docs/README.md`: index of the  references (cost model
   and calibration, dispatchers and baselines, simulator and metrics,
   experimental design and its historical bug notes, analysis scripts,
   reporting tools).
