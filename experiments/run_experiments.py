@@ -252,9 +252,7 @@ def main():
                           "--candidates-d 6.")
     ap.add_argument("--candidates-d", type=int, default=6,
                      help="Number of candidate nodes sampled by MERAF on "
-                          "every request (default 6, unchanged from the "
-                          "previous version so as not to alter the results already "
-                          "reported with the default 4-node fleet)")
+                          "every request (default 6)")
     ap.add_argument("--no-latex", action="store_true",
                      help="Do not generate the .tex tables automatically (by "
                           "default they are written right after the CSVs, see "
@@ -262,7 +260,7 @@ def main():
     ap.add_argument("--profile-table-algo", default="meraf",
                      help="Algorithm for which to generate the automatic per-profile "
                           "(T,P) table, one per load (default: meraf, "
-                          "consistent with Table 6/7 of the paper)")
+                          "consistent with the tables of the paper)")
     args = ap.parse_args()
 
     os.makedirs(args.outdir, exist_ok=True)
