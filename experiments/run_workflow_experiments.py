@@ -227,8 +227,6 @@ def main():
     calib = CostCalibration()
 
     # Mean completion rate per (scenario, topology, load) for the end-of-run
-    # divergence check: two structurally different admission mechanisms giving
-    # identical results has so far always been a bug, not a finding.
     per_task_cells = {}
     per_workflow_cells = {}
     per_deadline_cells = {}
